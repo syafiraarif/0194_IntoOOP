@@ -5,8 +5,12 @@ using namespace std;
 
 class bangunDatar
 {
-	private:
+	private:						//akses modifier
 		float panjang, lebar;
+
+	public:
+		float luas;
+
 
 };
 int main()
