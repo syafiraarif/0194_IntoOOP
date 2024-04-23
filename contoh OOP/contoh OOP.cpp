@@ -25,6 +25,10 @@ class bangunDatar
 			return panjang * lebar;
 		}
 
+		void display()
+		{
+
+		}
 
 };
 int main()
