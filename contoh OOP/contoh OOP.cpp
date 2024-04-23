@@ -20,6 +20,11 @@ class bangunDatar
 
 		}
 
+		float HitungLuas()
+		{
+
+		}
+
 
 };
 int main()
