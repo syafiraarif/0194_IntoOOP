@@ -5,10 +5,17 @@ using namespace std;
 
 class Mahasiswa 
 {
-public:					//akses modifier
-	string nama;
-	int umur;
-	string jurusan;
+	public:					//akses modifier
+		string nama;
+		int umur;
+		string jurusan;
+
+		void output() 
+		{
+			cout << "Nama = " << nama << endl;
+			cout << "Umur = " << umur << endl;
+			cout << "jurusan = " << jurusan << endl;
+		}
 
 };
 int main()
