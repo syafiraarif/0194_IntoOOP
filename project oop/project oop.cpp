@@ -35,6 +35,11 @@ class Matakuliah
 			cin >> sks;
 		}
 
+		void output() {
+			cout << "kode MK = " << kodeMK << endl;
+			cout << "Nama MK = " << namaMK << endl;
+			cout << "SKS : " << sks << endl;
+		}
 
 };
 int main()
