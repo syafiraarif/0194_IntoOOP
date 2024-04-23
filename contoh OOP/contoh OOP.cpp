@@ -22,7 +22,7 @@ class bangunDatar
 
 		float HitungLuas()
 		{
-
+			return panjang * lebar;
 		}
 
 
