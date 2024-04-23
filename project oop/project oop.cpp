@@ -25,6 +25,7 @@ class Matakuliah
 		string kodeMK;
 		string namaMK;
 		int sks;
+	public:
 
 };
 int main()
