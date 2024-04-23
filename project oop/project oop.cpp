@@ -42,8 +42,21 @@ class Matakuliah
 		}
 
 };
+
 int main()
 {
-    
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.nama = "Putri Aulia Syafira Arif";
+	mhs.umur = 19;
+	mhs.jurusan = "Teknologi Informasi";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
+
 }
 
